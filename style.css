@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    width: 1440px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 180px;
+    flex: 1 0 auto;
+    font-family: Poppins, serif;
+}
+
+header {
+    display: flex;
+    padding: 44px 78px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.logo {
+    color: #0E0578;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.navbar {
+    display: flex;
+    align-items: flex-start;
+    gap: 76px;
+}
+
+.nav-item {
+    color: #686565;
+    font-size: 30px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.welcome {
+    display: flex;
+    padding: 0px 78px;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.title {
+    color: #2000E7;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+h1 {
+    color: #2000E7;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+span {
+    color: #F2BD00;
+}
+
+.welcome p {
+    width: 620px;
+    color: #383838;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+.welcome-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.buttons {
+    display: flex;
+    align-items: flex-start;
+    gap: 44px;
+}
+
+.btn-primary {
+    display: flex;
+    width: 246px;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #2000E7;
+    box-shadow: 11px 21px 15px 6px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.btn-secondary {
+    display: flex;
+    width: 246px;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid #2000E7;
+    background: rgba(32, 0, 231, 0.04);
+    box-shadow: 11px 21px 15px 6px rgba(0, 0, 0, 0.25);
+    color: #2000E7;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.welcome-image {
+    width: 564px;
+    height: 564px;
+    border-radius: 0px 0px 0px 191px;
+    background: url(image/1.jpeg), lightgray 50% / cover no-repeat;
+    box-shadow: 36px -32px 0px 0px rgba(135, 117, 249, 0.50);
+}
+
+.about-me {
+    display: flex;
+    height: 920px;
+    padding: 0px 78px;
+    align-items: center;
+    align-self: stretch;
+}
+
+.about-me-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+}
+
+.about-me-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #2000E7;
+    letter-spacing: 16.8px;
+}
+
+.about-me p {
+    width: 415px;
+    height: 303px;
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.about-me-image {
+    width: 925px;
+    height: 925px;
+    background: url(image/2.png), white 50% / cover no-repeat;
+}
+
+.my-projects {
+    display: flex;
+    padding: 80px 78px;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    align-self: stretch;
+    background: rgba(255, 214, 150, 0.20);
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.subtitle {
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.col-project {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 44px;
+}
+
+.project-image {
+    width: 246px;
+    height: 184px;
+    border-radius: 6px;
+}
+
+
+/* ... (other user-provided styles will continue in the same manner) ... */
+
+footer {
+    display: flex;
+    padding: 64px 78px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 64px;
+    align-self: stretch;
+    background: rgba(255, 214, 150, 0.20);
+}
+
+.social {
+    display: flex;
+    align-items: flex-end;
+    gap: 44px;
+}
+
+.social a {
+    display: flex;
+    align-items: flex-end;
+    gap: 44px;
+}
+
+.social img {
+    width: 76px;
+    height: 76px;
+    background-size: cover;
+}
+

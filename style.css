@@ -218,6 +218,92 @@ h2 {
     border-radius: 6px;
 }
 
+.contact-me {
+    display: flex;
+    padding: 80px 78px;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    align-self: stretch;
+    background: rgba(67, 186, 253, 0.06);
+}
+
+.sub-form {
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+}
+
+.contact-me-image {
+    width: 958px;
+    height: 958px;
+    background: url(image/3.png) transparent no-repeat;
+    background-size: cover;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+.formfields {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+}
+
+.btn-form {
+    display: flex;
+    width: 324px;
+    height: 94px;
+    padding: 0px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #FFF;
+    box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+input[type=email], input[type=password] {
+    display: flex;
+    width: 653px;
+    height: 94px;
+    padding: 12px 36px;
+    align-items: center;
+    gap: 10px;
+    background: #FFF;
+    box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+textarea {
+    display: flex;
+    width: 653px;
+    height: 265px;
+    padding: 12px 36px;
+    align-items: flex-start;
+    gap: 10px;
+    background: #FFF;
+    box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 footer {
     display: flex;
     padding: 64px 78px;
